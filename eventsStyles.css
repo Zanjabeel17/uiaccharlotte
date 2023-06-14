@@ -1,0 +1,262 @@
+/*ITIS 3135 uiaccharlotte css file*/
+
+
+body{
+    margin: 0;
+    background-color:rgb(0, 0, 0);
+} 
+
+    /* Navigation Bar */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Kumba Sans',sans-serif;
+}
+
+.navbar{
+    background: black;
+    height:80px;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbarContainer{
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.logoImage{
+    cursor: pointer;
+    position:absolute;
+    left: 2%;
+    top: 0;
+    margin-top: 6px;
+    margin-right:10px;
+    width:216px;
+    height: 62px;
+    display:flex;
+}
+
+.navbarMenu{
+    display:flex;
+    align-items:center;
+    list-style:none;
+    text-align: center;
+}
+
+.navbarItem{
+    height: 80px;
+}
+
+.navbarLinks{
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+
+
+.search-bar{
+    display:flex;
+    position:relative;
+    right: 0px;
+    left:225px;
+    width: 100px;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+
+   
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: .09px;
+    border-radius:55px;
+    padding-left:10px;
+    border-style:solid;
+    border-color:rgb(68, 65, 65);
+    outline: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    color:rgb(123, 116, 116);
+}
+
+.search-bar button img{
+    width: 25px;
+    cursor: pointer;
+}
+
+.search-bar button{
+    border: 0;
+    position:relative;
+    left: 1px;
+    width:40px;
+    height: 24px;
+
+}
+
+.navbarLinks:hover{
+    color:rgb(193, 144, 20);
+    transition: all 0.3s ease;
+
+}
+
+    /* Main Section */
+.slide{
+    background-color: rgb(255, 251, 251);
+    height: 120vh;
+}
+
+
+.h1{
+    font-size:30px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    display: flex;
+    color:rgb(193, 144, 20);
+}
+
+.calender {
+    padding: 70px 25px;
+    width: 100%;
+    background: rgb(193, 144, 20);
+    text-align: center;
+}
+  
+.calender ul {
+    margin: 0;
+    padding: 0;
+}
+  
+.calender ul li {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+  
+.weekdaysList {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+  
+.weekdaysList li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+  
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+  
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size:15px;
+    color: #777;
+}
+  
+.days li .active {
+    padding: 5px;
+    background: rgb(170, 169, 166);
+    color: white !important
+}
+
+
+    /* Footer */
+
+.logoImage2{
+    cursor: pointer;
+    position:absolute;
+    left: 3%;
+    top: 145%;
+    width:245px;
+    height: 77px;
+    display:flex;
+    margin-bottom: 10px;
+}
+
+.h3{
+    color:rgb(193, 144, 20);
+    position:absolute;
+    margin-top: 40px;
+    left: 38.5%;
+    font-size: 18px;
+}
+
+.footerLink1{
+    color: white;
+    display:flex;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 14%;
+    position:absolute;
+    left:37.5%;
+    margin-top:65px;
+}
+
+.h4{
+    color:rgb(193, 144, 20);
+    position:absolute;
+    top:140%;
+    left: 58.5%;
+    font-size: 18px;
+    display:flex;
+}
+
+.emailIcon{
+    width: 20px;
+    height:20px;
+    position:absolute;
+    left:55.5%;
+}
+
+.phoneIcon{
+    width: 20px;
+    height:20px;
+    position:absolute;
+    left:55.5%;
+    top: 150%;
+}
+  
+.emailAddress{
+    color:white;
+    font-size:14px;
+    position: absolute;
+    left:57.8%;
+}
+
+.phoneNumber{
+    color:white;
+    font-size:14px;
+    margin-top:28px;
+    position: absolute;
+    left:57.8%;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>uiaccharlotte</title>
+        <!-- <link rel="icon" type="image/x-icon" href="images/favicon.x-ico"> -->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, Element, Tag">
+        <meta name="author" content="Zanjabeel">
+        <link rel="stylesheet" type="text/css" href="donateStyles.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="navbarContainer">
+                <a href="index.html"><img class="logoImage" src="images/logo.png" alt="masjid_logo"></a>
+                <div class="navbarToggle" id="menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbarMenu">
+                    <li class="navbarItem">
+                        <a href="index.html" class="navbarLinks" id="homeButton">Home</a>
+                    </li>
+                    <li class="navbarItem">
+                        <a href="programs.html" class="navbarLinks">Programs</a>
+                    </li>
+                    <li class="navbarItem">
+                        <a href="events.html" class="navbarLinks">Events</a>
+                    </li>
+                    <li class="navbarItem">
+                        <a href="donate.html" class="navbarLinks">Donate</a>
+                    </li>
+                </ul>
+                <form class="search-bar">
+                    <input type="text" placeholder="Search" name="q">
+                    <button type="submit"><img src="images/search.png" alt="seachButton"></button>
+                </form>
+            </div>
+        </nav>
+
+        <main>
+            <section class="slide">
+                <h1 class="h1">Donate to Support Your Masjid</h1>
+                <div class="square">
+                    <h2 class="h2">Donate to:</h2>
+                    <div class="selector">
+                        <select class="select">
+                            <option class="option">General Operations</option>
+                            <option>Zakat</option>
+                            <option>Sadaqah</option>
+                            <option>Youth Program</option>
+                            <option>Masjid Construction</option>
+                            <option>Sunday School</option>
+                        </select>
+                    </div>
+
+                    <p class="p" id="p1">Amount</p>
+                    <form class="amount">
+                        <input class="amountInput" type="text" placeholder="USD" name="q">
+                    </form>
+                    <p class="p" id="p2">Name on Card</p>
+                    <form class="name">
+                        <input class="nameInput" type="text" placeholder="Jane Doe" name="q">
+                    </form>
+                    <p class="p" id="p3">Credit/Debit</p>
+                    <form class="cardNumber">
+                        <input class="cardInput" type="text" placeholder="0000-0000-0000-0000" name="q" id="cardNum">
+                        <input class="ymInput" type="text" placeholder="y/m" name="q" id="y/m">
+                        <input class="cvcInput" type="text" placeholder="cvc" name="q" id="cvc">
+                    </form>
+                    <button class="button">Donate</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <a><img class="logoImage2" src="images/logo.png" alt="masjid_logo"></a>
+            <h3 class="h3">Pages</h3>
+            <ul class="footerPages">
+                <li class="footerItem1">
+                    <a href="index.html" class="footerLink1" id="homebutton">Home</a>
+                </li>
+                <li class="footerItem1">
+                    <a href="programs.html" class="footerLink1">Programs</a>
+                </li>
+                <li class="footerItem1">
+                    <a href="events.html" class="footerLink1">Events</a>
+                </li>
+                <li class="footerItem1">
+                    <a href="donate.html" class="footerLink1">Donate</a>
+                </li>
+            </ul>
+
+            <h4 class="h4">Contact Us</h4>
+            <a><img class="emailIcon" src="images/email.png" alt="email_icon"></a>
+            <a><img class="phoneIcon" src="images/phone.png" alt="phone_icon"></a>
+            <p class="emailAddress">uiaccharlotte@gmail.com</p>
+            <p class="phoneNumber">(704)-000-000</p>              
+        </footer>
+    </body>
+ </html>
